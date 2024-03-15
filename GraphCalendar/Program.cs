@@ -37,6 +37,7 @@ class Program
         var clientSecretCredential = new ClientSecretCredential(tenantId, clientId, clientSecret, options);
 
         var graphClient = new GraphServiceClient(clientSecretCredential, scopes);
+
         
         try
         {
